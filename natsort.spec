@@ -4,10 +4,10 @@
 #
 Name     : natsort
 Version  : 6.2.0
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/14/53/13b590df1c3c4db57be7e6a1d5b492311dbfef099aed3ed788dfd9a6cdd2/natsort-6.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/14/53/13b590df1c3c4db57be7e6a1d5b492311dbfef099aed3ed788dfd9a6cdd2/natsort-6.2.0.tar.gz
-Summary  : Natural Sorting utility
+Summary  : Simple yet flexible natural sorting in Python.
 Group    : Development/Tools
 License  : MIT
 Requires: natsort-bin = %{version}-%{release}
@@ -15,7 +15,6 @@ Requires: natsort-license = %{version}-%{release}
 Requires: natsort-python = %{version}-%{release}
 Requires: natsort-python3 = %{version}-%{release}
 Requires: PyICU
-Requires: configparser
 Requires: contextlib2
 Requires: coverage
 Requires: fastnumbers
@@ -25,7 +24,6 @@ Requires: pyparsing
 Requires: zipp
 BuildRequires : PyICU
 BuildRequires : buildreq-distutils3
-BuildRequires : configparser
 BuildRequires : contextlib2
 BuildRequires : coverage
 BuildRequires : fastnumbers
@@ -40,14 +38,7 @@ BuildRequires : virtualenv
 BuildRequires : zipp
 
 %description
-# Development Collateral
-This file contains some files useful for development.
-- `bump.sh` - Execute `bumpversion` then post-processes the CHANGELOG to handle corner-cases
-that `bumpversion` cannot. Requires [`bump2version`](https://github.com/c4urself/bump2version),
-which is the maintained fork of [`bumpversion`](https://github.com/peritus/bumpversion).
-- `clean.sh` - This file cleans most files that are created during development.
-Run in the project home directory.
-- `requirements.txt` - Requirements to run tests.
+=======
 
 %package bin
 Summary: bin components for the natsort package.
@@ -93,8 +84,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1573702222
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1573849770
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
