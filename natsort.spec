@@ -4,7 +4,7 @@
 #
 Name     : natsort
 Version  : 6.2.0
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/14/53/13b590df1c3c4db57be7e6a1d5b492311dbfef099aed3ed788dfd9a6cdd2/natsort-6.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/14/53/13b590df1c3c4db57be7e6a1d5b492311dbfef099aed3ed788dfd9a6cdd2/natsort-6.2.0.tar.gz
 Summary  : Simple yet flexible natural sorting in Python.
