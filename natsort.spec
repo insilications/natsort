@@ -4,7 +4,7 @@
 #
 Name     : natsort
 Version  : 7.0.1
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/b3/60/684d437b29c04bb08b5a145c94babbc802f551a3cd392680b1a2cd0104bb/natsort-7.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b3/60/684d437b29c04bb08b5a145c94babbc802f551a3cd392680b1a2cd0104bb/natsort-7.0.1.tar.gz
 Summary  : Natural Sorting utility
@@ -70,6 +70,7 @@ python components for the natsort package.
 Summary: python3 components for the natsort package.
 Group: Default
 Requires: python3-core
+Provides: pypi(natsort)
 
 %description python3
 python3 components for the natsort package.
@@ -84,7 +85,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1580226980
+export SOURCE_DATE_EPOCH=1583185427
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
