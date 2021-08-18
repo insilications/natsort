@@ -1,2 +1,16 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
+buildreq-distutils3
+coverage
+fastnumbers
+hypothesis
+pluggy
+PyICU
+pyparsing
+py-python
+pytest
+six
+sortedcontainers
+tox
+virtualenv
+zipp
